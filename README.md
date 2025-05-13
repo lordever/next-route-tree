@@ -50,8 +50,6 @@ Flags:
 ## Features
 
 * Supports route groups like (settings) as (group)
-* Supports dynamic routes like [id] rendered as :id
-* Supports optional segments like [[locale]] rendered as :locale
 * Skips catch-all routes like [...slug] by default
 * Skips API routes unless --include-api is passed
 * Supports slots like @slot and marks them as (slot)
